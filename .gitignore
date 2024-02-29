@@ -1,4 +1,5 @@
 slprj/
 *.slxc
 *.autosave
-RL_Training_Session/
+RL_Session/
+RL_Agent/
