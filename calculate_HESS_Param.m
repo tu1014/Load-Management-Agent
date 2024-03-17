@@ -2,7 +2,7 @@
 % Capacitor Parameter - Maxwell BCAP3000
 Capacitor.Cell_Voltage = 2.7; % V
 Capacitor.Cell_Capacitance = 3000; % F
-Capacitor.N_Serial = 111;
+Capacitor.N_Serial = 222; % 111;
 Capacitor.Cell_Resistance = 1; % mOhm
 
 Capacitor.Voltage = Capacitor.Cell_Voltage * Capacitor.N_Serial; % V
@@ -17,7 +17,7 @@ Capacitor.kWh = Capacitor.Wh / 1000;
 Battery.Cell_Voltage = 3.6; % V
 Battery.Cell_Capacity = 3; % Ahr;
 Battery.Cell_Resistance = 0.028; % Ohm
-Battery.N_Serial = 84;
+Battery.N_Serial = 100; % 84;
 Battery.N_Parallel = 50;
 
 Battery.Voltage = Battery.Cell_Voltage * Battery.N_Serial;
