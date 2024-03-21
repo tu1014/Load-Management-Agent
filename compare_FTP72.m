@@ -16,7 +16,7 @@ plot(x, y, 'r');
 y = FTP72_SAC.cap_info.signals(5).values;
 plot(x, y, 'b')
 
-y = FTP72_Rule.cap_info.signals(5).values;
+y = FTP72_Rule.cap_info.signals(5).values(1:size(y));
 plot(x, y, 'g')
 
 x = FTP72.time;
