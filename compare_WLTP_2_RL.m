@@ -23,7 +23,7 @@ legend('REF','SAC', 'Power Demand')
 title('WLTP Class 2 Capacitor Power')
 xlabel('time (sec)')
 ylabel('power (W)')
-xlim([0 1022])
+xlim([0 1477])
 
 % wltp class 2 cap soc
 subplot(3, 2, 2);
@@ -40,7 +40,7 @@ legend('REF','SAC')
 title('WLTP Class 2 Capacitor SOC')
 xlabel('time (sec)')
 ylabel('SOC (%)')
-xlim([0 1022])
+xlim([0 1477])
 
 % wltp class 2 cap discharge cycle
 subplot(3, 2, 3);
@@ -57,7 +57,7 @@ legend('REF','SAC')
 title('WLTP Class 2 Capacitor Discharge Cycle')
 xlabel('time (sec)')
 ylabel('Discharge Cycle')
-xlim([0 1022])
+xlim([0 1477])
 
 % wltp class 2 bat soc
 subplot(3, 2, 4);
@@ -74,7 +74,7 @@ legend('REF','SAC')
 title('WLTP Class 2 battery soc')
 xlabel('time (sec)')
 ylabel('SOC (%)')
-xlim([0 1022])
+xlim([0 1477])
 
 % wltp class 2 bat discharge cycle
 subplot(3, 2, 5);
@@ -91,7 +91,7 @@ legend('REF','SAC')
 title('WLTP Class 2 battery Discharge Cycle')
 xlabel('time (sec)')
 ylabel('Discharge Cycle')
-xlim([0 1022])
+xlim([0 1477])
 
 % wltp class 2 bat soh
 subplot(3, 2, 6);
@@ -108,7 +108,7 @@ legend('REF','SAC')
 title('WLTP Class 2 battery SOH')
 xlabel('time (sec)')
 ylabel('SOH (%)')
-xlim([0 1022])
+xlim([0 1477])
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

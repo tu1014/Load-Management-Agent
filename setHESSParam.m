@@ -54,7 +54,7 @@ Capacitor.Capacitance = 1 / (Capacitor.N_Serial / Capacitor.Cell_Capacitance); %
 Capacitor.InternalResistance = Capacitor.Cell_InternalResistance * Capacitor.N_Serial * 0.001; % mOhm
 Capacitor.Coulomb = Capacitor.Voltage * Capacitor.Capacitance; % C
 Capacitor.Capacity = Capacitor.Coulomb / 3600; % Ahr
-Capacitor.Wh = Capacitor.Voltage * Capacitor.Capacity;
+Capacitor.Wh = (Capacitor.Capacitance * Capacitor.Voltage^2) / (2 * 3600);
 Capacitor.kWh = Capacitor.Wh / 1000;
 
 

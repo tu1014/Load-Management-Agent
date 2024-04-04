@@ -9,7 +9,6 @@ disp('set RL env ...')
 % load Trained_Agent/DQN_Agent.mat;
 load Trained_Agent/SAC/SAC_Agent_285.mat;
 load Trained_Agent/REF/REF_Agent_248.mat;
-
 setREFEnv
 % setSACEnv
 % setDQNEnv

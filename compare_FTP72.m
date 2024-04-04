@@ -27,7 +27,7 @@ legend('REF','SAC', 'Rule-based', 'Power Demand')
 title('FTP72 Capacitor Power')
 xlabel('time (sec)')
 ylabel('power (W)')
-xlim([0 1022])
+xlim([0 1372])
 
 % FTP72 cap soc
 subplot(3, 2, 2);
@@ -47,7 +47,7 @@ legend('REF','SAC', 'Rule-based')
 title('FTP72 Capacitor SOC')
 xlabel('time (sec)')
 ylabel('SOC (%)')
-xlim([0 1022])
+xlim([0 1372])
 
 % FTP72 cap discharge cycle
 subplot(3, 2, 3);
@@ -67,7 +67,7 @@ legend('REF','SAC', 'Rule-based')
 title('FTP72 Capacitor Discharge Cycle')
 xlabel('time (sec)')
 ylabel('Discharge Cycle')
-xlim([0 1022])
+xlim([0 1372])
 
 % FTP72 bat soc
 subplot(3, 2, 4);
@@ -87,7 +87,7 @@ legend('REF','SAC', 'Rule-based')
 title('FTP72 battery soc')
 xlabel('time (sec)')
 ylabel('SOC (%)')
-xlim([0 1022])
+xlim([0 1372])
 
 % FTP72 bat discharge cycle
 subplot(3, 2, 5);
@@ -107,7 +107,7 @@ legend('REF','SAC', 'Rule-based')
 title('FTP72 battery Discharge Cycle')
 xlabel('time (sec)')
 ylabel('Discharge Cycle')
-xlim([0 1022])
+xlim([0 1372])
 
 % FTP72 bat soh
 subplot(3, 2, 6);
@@ -127,7 +127,7 @@ legend('REF','SAC', 'Rule-based')
 title('FTP72 battery SOH')
 xlabel('time (sec)')
 ylabel('SOH (%)')
-xlim([0 1022])
+xlim([0 1372])
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
