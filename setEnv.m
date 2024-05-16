@@ -10,8 +10,8 @@ disp('set RL env ...')
 load Trained_Agent/SAC/SAC_Agent_128.mat;
 load Trained_Agent/REF/REF_Agent_117.mat;
 
-setREFEnv
-% setSACEnv
+% setREFEnv
+setSACEnv
 % setDQNEnv
 
 disp('=====Env Configuration Finished!=====')
