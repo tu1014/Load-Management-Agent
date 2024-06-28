@@ -9,15 +9,15 @@ Pwr_Dmd = 0.57543;
 Cap_SOC = 0.83456;
 Bat_SOC = 0.96432;
 
-Pwr_Dmd = int8(Pwr_Dmd*100);
-Cap_SOC = int8(Cap_SOC*100);
-Bat_SOC = int8(Bat_SOC*100);
+Pwr_Dmd = sprintf('%.3f', Pwr_Dmd);
+Cap_SOC = sprintf('%.3f', Cap_SOC);
+Bat_SOC = sprintf('%.3f', Bat_SOC);
 
-input = [ int2str(Pwr_Dmd) ',' int2str(Cap_SOC) ',' int2str(Bat_SOC)];
-input_b = uint8(input);
+input = Pwr_Dmd + "," + Cap_SOC + "," + Bat_SOC;
 
 writeline(device, input);
 flush(device);
+
 
 
 res = readline(device);

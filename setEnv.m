@@ -14,6 +14,6 @@ load Trained_Agent/REF/REF_Agent_117.mat;
 setSACEnv
 % setDQNEnv
 
-
+client = tcpclient("192.168.219.100", 11111);
 
 disp('=====Env Configuration Finished!=====')

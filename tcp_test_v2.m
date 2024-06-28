@@ -1,5 +1,8 @@
-function res = tcp_test(Pwr_Dmd, Cap_SOC, Bat_SOC)
+function res = tcp_test_v2(input)
 
+Pwr_Dmd = input(1);
+Cap_SOC = input(2);
+Bat_SOC = input(3);
 
 Pwr_Dmd = sprintf('%.3f', Pwr_Dmd);
 Cap_SOC = sprintf('%.3f', Cap_SOC);
